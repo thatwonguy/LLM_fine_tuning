@@ -34,3 +34,8 @@ Take a look at  `02_Where_finetuning_fits_in.ipynb`. The Lamina library is being
 
 # "Instruction" fine-tuning and why?  
 This type of fine-tuning technique is needed and was actually utilized to turn the GPT-3 model into chatgpt, and allowed it to obtain its "chatting" powers. This step will allow your model to go from being used by only geeks and nerds at your company to everyone at your company wanting to use it and then-some. It provides a better user-interface, better model-interaction, and impresses all the big-wig-C-suite-executives at your company. 
+
+If you take a look at `03_Instruction_tuning.ipynb` you can see some code on how these chat powers were obtained with *instruction fine-tuning*.
+
+<p align = "center"><img src="https://github.com/thatwonguy/LLM_fine_tuning/assets/78534460/e61d885b-f185-41cd-8ee9-c559a1c997e8"></p>
+
