@@ -14,7 +14,7 @@ A lot of chat-gpt style models are out there and they are free and open-source. 
 
 Fortunately for us, there are already companies like google, meta, microsoft, hugging-face, etc that have already provided open-source base-line large language models, like BERT, T-5, GPT-3, etc, which are trained on huge amounts of general information about the world.  
 
-What we can do now is take one of those base-line models, pull it to the side in our own special environment, take our own proprietary data as a company that only we might have access to and **FINE-TINE** the model on our data...essentially allowing us to add an extra layer of learning on top of the base model that will allow it to become more of an expert on the new information/domain that we have access to at our own company etc. Atleast a minimum of 1000 new pieces of data are required to see a boost in performance.
+What we can do now is take one of those base-line models, pull it to the side in our own special environment, take our own proprietary data as a company that only we might have access to and **FINE-TINE** the model on our data...essentially allowing us to add an extra layer of learning on top of the base model that will allow it to become more of an expert in the domain and on the private data at our company. Atleast a minimum of 1000 new pieces of data are required to see a boost in performance.
 
 This is the idea of FINE-TUNING. 
 
