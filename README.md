@@ -1,4 +1,4 @@
-# LLM_fine_tuning
+# OVERVIEW - LLM_fine_tuning
 ## What is fine-tuning and why do it?
 **Imagine this problem:** *Your company hires you and wants you to make a genAI chatbot for the company that can answer domain-specific questions for internal users within the company, isolated from the outside world due to privacy concerns, giving your company an edge and streamlining the process for internal employees to access proprietary information and get results to out-side end-users. How to accomplish this?*
 
@@ -25,6 +25,12 @@ There are 3 general ways one can fine-tune the base model:
 2. **HuggingFace** (library developed by huggingface providing a mid-level amount of control to go in and obtain and modify the base-models and fine-tune and use them)
 3. **Llama (Lamina)** library (another library that provides a very abstracted and high level approach to accomplish fine-tuning with very little amount of code)
 
-If you look at `01_Why_finetuning.ipynb` & `02_Where_finetuning_fits_in.ipynb` you will find that the Lamina library is being used for demonstration purposes in this repo, simply to provide a quick high-level overview and results to demonstrate the concept of fine-tuning with real code and real models.
+If you look at `01_Why_finetuning.ipynb` you will find a demo, with code, of the diffence between a base-model and the results it would provide compared to another model that is fine-tuned on the base model, which clearly provides much better results.
+
+# How to fine-tune?
+Take a look at  `02_Where_finetuning_fits_in.ipynb`. The Lamina library is being used for quick demonstration purposes. You can see that Lamina company data is being used to fine-tune a pre-trained base model and the output of the model is being saved as a `jsonl` (each line is a json object) format or saved back into huggingface for the world to use by pulling from the cloud.
+
+<p align = "center"><img src="https://github.com/thatwonguy/LLM_fine_tuning/assets/78534460/fff2a9c2-14ec-4896-85af-dbf8621544d5"></p>
+
 
 
