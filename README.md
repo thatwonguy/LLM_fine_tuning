@@ -12,7 +12,7 @@ A lot of chat-gpt style models are out there and they are free and open-source. 
 > [!NOTE]
 > This is NOT 'prompt-engineering', which is basically interacting with the model as a user to try and get it to change its behaviour or teach it something new by having effective conversations with it. Fine-tuning requires much more coding expertise to accomplish proper > results.
 
-Fortunately for us, there are already companies like google, meta, microsoft, hugging-face, etc that have already provided open-source base-line large language models, like BERT, T-5, GPT, etc, which are trained on huge amounts of general information about the world.  
+Fortunately for us, there are already companies like google, meta, microsoft, hugging-face, etc that have already provided open-source base-line large language models, like BERT, T-5, GPT-3, etc, which are trained on huge amounts of general information about the world.  
 
 What we can do now is take one of those base-line models, pull it to the side in our own special environment, take our own proprietary data as a company that only we might have access to and **FINE-TINE** the model on our data...essentially allowing us to add an extra layer of learning on top of the base model that will allow it to become more of an expert on the new information/domain that we have access to at our own company etc. Atleast a minimum of 1000 new pieces of data are required to see a boost in performance.
 
@@ -32,5 +32,5 @@ Take a look at  `02_Where_finetuning_fits_in.ipynb`. The Lamina library is being
 
 <p align = "center"><img src="https://github.com/thatwonguy/LLM_fine_tuning/assets/78534460/fff2a9c2-14ec-4896-85af-dbf8621544d5"></p>
 
-
-
+# "Instruction" fine-tuning and why?  
+This type of fine-tuning technique is needed and was actually utilized to turn the GPT-3 model into chatgpt, and allowed it to obtain its "chatting" powers. This step will allow your model to go from being used by only geeks and nerds at your company to everyone at your company wanting to use it and then-some. It provides a better user-interface, better model-interaction, and impresses all the big-wig-C-suite-executives at your company. 
