@@ -10,7 +10,7 @@ A lot of chat-gpt style models are out there and they are free and open-source. 
 3. Massive amounts of compute power which requires a lot of time or a lot of money or both.
 
 > [!NOTE]
-> This is NOT 'prompt-engineering', which is basically interacting with the model as a user to try and get it to change its behaviour or teach it something new by having effective conversations with it. Fine-tuning requires much more coding expertise to accomplish proper > results.
+> This is NOT 'prompt-engineering', which is basically interacting with the model as a user to try and get it to change its behaviour or teach it something new by having effective conversations with it. Fine-tuning requires much more coding expertise to accomplish proper results.
 
 Fortunately for us, there are already companies like google, meta, microsoft, hugging-face, etc that have already provided open-source base-line large language models, like BERT, T-5, GPT-3, etc, which are trained on huge amounts of general information about the world.  
 
