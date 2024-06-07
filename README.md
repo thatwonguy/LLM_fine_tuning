@@ -19,3 +19,12 @@ What we can do now is take one of those base-line models, pull it to the side in
 This is the idea of FINE-TUNING. 
 
 <p align="center"><img src="https://github.com/thatwonguy/LLM_fine_tuning/assets/78534460/71634619-b190-49f6-8434-85482e74243d"></p>
+
+There are 3 general ways one can fine-tune the base model:
+1. **Pytorch / Tensorflow** (libraries that allow you to get deep into the specifics of the model and dissect it like a surgeon)
+2. **HuggingFace** (library developed by huggingface providing a mid-level amount of control to go in and obtain and modify the base-models and fine-tune and use them)
+3. **Llama (Lamina)** library (another library that provides a very abstracted and high level approach to accomplish fine-tuning with very little amount of code)
+
+If you look at `01_Why_finetuning.ipynb` & `02_Where_finetuning_fits_in.ipynb` you will find that the Lamina library is being used for demonstration purposes in this repo, simply to provide a quick high-level overview and results to demonstrate the concept of fine-tuning with real code and real models.
+
+
