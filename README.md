@@ -55,4 +55,8 @@ Take a look at notebook `04_Data_preparation.ipynb` to see this data prep step i
 
 <p align = "center"><img src="https://github.com/thatwonguy/LLM_fine_tuning/assets/78534460/2343e3b5-ba63-49ca-a0ab-667c7c80f3f9"></p>
 
+# Training Process (putting the above together)
 
+Take a look at `05_Training_combining_01_to_04.ipynb` and you can see how it all comes together. The first few cells of the notebook code uses pytorch and hugging face libraries to fine_tune a small model using CPU power (with demonstration of how to call GPU power if it is available to dramatically speed up the proces). The final few cells of the notebook code show how you can achieve the same thing with a highly abstracted lamina-library approach with just a few lines of code.
+
+You can also see how censorship and moderation is achieved. You simply train the model to respond and refuse to provide answers to specific types of questions.
