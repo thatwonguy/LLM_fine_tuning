@@ -65,5 +65,10 @@ The first few cells of the notebook code uses pytorch and hugging face libraries
 
 <p align = "center"><img src="https://github.com/thatwonguy/LLM_fine_tuning/assets/78534460/144036e2-d895-4362-a1e4-cba857d326c0"></p>
 
-You can also see how censorship and moderation is achieved. You simply train the model to respond and refuse to provide answers to specific types of questions.
+Dive into `05_Training_combining_01_to_04.ipynb` and you can also spot how censorship and moderation is achieved. You simply train the model to respond and refuse to provide answers to specific types of questions.
+
+# Evaluation and Iteration  
+This brings us to the next step of the process, which is also important, and that is, how to evaluate and iterate over your fine-tuning process/model in order to make it better. Why? Because bad results are useless ultimately right `😜`?
+
+To be continued...!
 
