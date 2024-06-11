@@ -34,3 +34,18 @@ Take a look at  `02_Where_finetuning_fits_in.ipynb`. The Lamina library is being
 
 # "Instruction" fine-tuning and why?  
 This type of fine-tuning technique is needed and was actually utilized to turn the GPT-3 model into chatgpt, and allowed it to obtain its "chatting" powers. This step will allow your model to go from being used by only geeks and nerds at your company to everyone at your company wanting to use it and then-some. It provides a better user-interface, better model-interaction, and impresses all the big-wig-C-suite-executives at your company. 
+
+# Data Preparation
+The type of data you need to prepare is very important. Everybody at this point understands and knows the saying ***"garbage in = garbage out"***. This still holds true with large language models. Find a quick and concise break down of the kind of data you want to start prepping for fine-tuning:
+
+| Better                                           | Worse                                          |
+|---------------------|------------------|
+| High Quality | Lower Quality |
+| Diversity in the data | homogenous and no diversity in data
+| Real actual data | fake pretend data used just to create more data
+| More data in general (the more the better) | Less data or not enough data
+
+The other thing to take into consideration is tokenization. This is a key concept to understand and implement. You have to convert the words in the language you are using into "tokens" for the machine learning algorithm to process correctly and learn from. The words are decoded into number values and the decoded back into the english language for the end-user.
+
+Take a look at notebook `04_Data_preparation.ipynb` to see this data prep step in action with real code.
+
