@@ -53,3 +53,6 @@ The other thing to take into consideration is tokenization. This is a key concep
 
 Take a look at notebook `04_Data_preparation.ipynb` to see this data prep step in action with real code.
 
+<p align = "center"><img src="https://github.com/thatwonguy/LLM_fine_tuning/assets/78534460/2343e3b5-ba63-49ca-a0ab-667c7c80f3f9"></p>
+
+
