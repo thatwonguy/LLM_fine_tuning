@@ -84,6 +84,5 @@ Improving the model after obtaining the evaluation of the data with the test dat
 
 Take a look at `06_Evaluation.ipynb` for the example notebook showing actual code to carry out what was described above.
 
-
-
+# Considerations on getting started
 
