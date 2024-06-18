@@ -70,6 +70,20 @@ Dive into `05_Training_combining_01_to_04.ipynb` and you can also spot how censo
 # Evaluation and Iteration  
 This brings us to the next step of the process, which is also important, and that is, how to evaluate and iterate over your fine-tuning process/model in order to make it better. Why? Because bad results are useless ultimately right `😜`?
 
+You need good test data to carry out proper evaluation. See below:
 
-To be continued....!
+<p align = "center"><img src="https://github.com/thatwonguy/LLM_fine_tuning/assets/78534460/e8945c71-959e-4fcc-a0c4-2cae357cd269"></p>
+
+An approach to model evaluation for LLMs is to use established benchmarks and take the average. A few are shown below:
+
+<p align = "center"><img src="https://github.com/thatwonguy/LLM_fine_tuning/assets/78534460/82e680df-8e55-43d6-929d-9241e4d2e169"></p>
+
+Improving the model after obtaining the evaluation of the data with the test data is an ITERATIVE process. You will run an error analysis of the evaluation, categorize the errors and fix those errors as shown below:
+
+<p align = "center"><img src="https://github.com/thatwonguy/LLM_fine_tuning/assets/78534460/54aea5b7-8f08-490d-b6bc-624a03920ceb"></p>
+
+Take a look at `06_Evaluation.ipynb` for the example notebook showing actual code to carry out what was described above.
+
+
+
 
