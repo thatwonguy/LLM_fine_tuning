@@ -86,3 +86,18 @@ Take a look at `06_Evaluation.ipynb` for the example notebook showing actual cod
 
 # Considerations on getting started
 
+<p align = "center"><img src="https://github.com/thatwonguy/LLM_fine_tuning/assets/78534460/f21f08bc-8a83-489e-8537-feb2b48d8ad8"></p>
+
+<p align = "center"><img src="https://github.com/thatwonguy/LLM_fine_tuning/assets/78534460/e8b21837-449d-42fc-a0be-e7d0e2f5eec2"></p>
+
+For those who are more experienced with training machine learning models and deploying online, you understand better than most that memory and computational power are necessary in being able to properly train and use these models. The below chart is a useful breakdown of what would typically be required to achieve this for a large langauge model, based on what kind of data you are working with:
+
+<p align = "center"><img src="https://github.com/thatwonguy/LLM_fine_tuning/assets/78534460/dfcf205e-7eaf-4ae7-9fa1-436892a2c34c"></p>
+
+<p align = "center"><img src="https://github.com/thatwonguy/LLM_fine_tuning/assets/78534460/dca2fc45-0632-48af-a6e9-f69f8232b2f6"></p>
+
+A high level view of a very effective method of fine-tuning a model is to take the base model that is already pre-trained and available on platform like hugging-face and freeze the main layers of the model, and only train the outer layers before merging with the base model layer at the inference stage:
+
+<p align = "center"><img src="https://github.com/thatwonguy/LLM_fine_tuning/assets/78534460/981de2a9-081a-477d-91df-3c0d25be47e7"></p>
+
+
