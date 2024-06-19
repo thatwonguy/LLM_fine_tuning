@@ -102,4 +102,4 @@ A high level view of a very effective method of fine-tuning a model is to take t
 
 # Conclusion 
 
-in progress...
+This was meant to be a quick high level overview with real working code on how to fine-tune a large language model. Of course there is much more detail that can be expanded upon such as utilizing pytorch and tensorflow to really get into the details of the large language models and neural networks and freeze base layers and work on outer hidden layers etc...but, none-the-less, hopefully this provides a solid starting point into understanding how to fine-tune an LLM and create your own "ChatGPT"! 
