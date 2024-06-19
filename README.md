@@ -100,4 +100,6 @@ A high level view of a very effective method of fine-tuning a model is to take t
 
 <p align = "center"><img src="https://github.com/thatwonguy/LLM_fine_tuning/assets/78534460/981de2a9-081a-477d-91df-3c0d25be47e7"></p>
 
+# Conclusion 
 
+in progress...
