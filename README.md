@@ -49,7 +49,7 @@ The type of data you need to prepare is very important. Everybody at this point 
 | Real actual data | fake pretend data used just to create more data
 | More data in general (the more the better) | Less data or not enough data
 
-The other thing to take into consideration is tokenization. This is a key concept to understand and implement. You have to convert the words in the language you are using into "tokens" for the machine learning algorithm to process correctly and learn from. The words are decoded into number values and the decoded back into the english language for the end-user.
+The other thing to take into consideration is tokenization. This is a key concept to understand and implement. You have to convert the words in the language you are using into "tokens" for the machine learning algorithm to process correctly and learn from. The words are encoded into number values and the decoded back into the english language for the end-user.
 
 Take a look at notebook `04_Data_preparation.ipynb` to see this data prep step in action with real code.
 
