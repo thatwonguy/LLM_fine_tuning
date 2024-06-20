@@ -90,7 +90,7 @@ Take a look at `06_Evaluation.ipynb` for the example notebook showing actual cod
 
 <p align = "center"><img src="https://github.com/thatwonguy/LLM_fine_tuning/assets/78534460/e8b21837-449d-42fc-a0be-e7d0e2f5eec2"></p>
 
-For those who are more experienced with training machine learning models and deploying online, you understand better than most that memory and computational power are necessary in being able to properly train and use these models. The below chart is a useful breakdown of what would typically be required to achieve this for a large langauge model, based on what kind of data you are working with:
+For those who are more experienced with training machine learning models and deploying online, you understand better than most that adequate memory and computational power are necessary in being able to properly train and use these models. The below chart is a useful breakdown of what would typically be required to achieve this for a large langauge model, based on what kind of data you are working with:
 
 <p align = "center"><img src="https://github.com/thatwonguy/LLM_fine_tuning/assets/78534460/dfcf205e-7eaf-4ae7-9fa1-436892a2c34c"></p>
 
