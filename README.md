@@ -1,4 +1,5 @@
 # OVERVIEW - LLM_fine_tuning
+# Part 1
 ## What is fine-tuning and why do it?
 **Imagine this problem:** *Your company hires you and wants you to make a genAI chatbot for the company that can answer domain-specific questions for internal users within the company, isolated from the outside world due to privacy concerns, giving your company an edge and streamlining the process for internal employees to access proprietary information and get results to out-side end-users. How to accomplish this?*
 
@@ -100,6 +101,6 @@ A high level view of a very effective method of fine-tuning a model is to take t
 
 <p align = "center"><img src="https://github.com/thatwonguy/LLM_fine_tuning/assets/78534460/981de2a9-081a-477d-91df-3c0d25be47e7"></p>
 
-# Conclusion 
+# Part 1 - Conclusion 
 
 This was meant to be a quick high level overview with real working code on how to fine-tune a large language model. Of course there is much more detail that can be expanded upon such as utilizing pytorch and tensorflow to really get into the details of the large language models and neural networks and freeze base layers and work on outer hidden layers etc...but, none-the-less, hopefully this provides a solid starting point into understanding how to fine-tune an LLM and create your own "ChatGPT"! 
